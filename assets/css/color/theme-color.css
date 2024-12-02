@@ -1,0 +1,10 @@
+/* :root {
+    --thm-base: #ee296a;
+    --thm-base-rgb: 238, 41, 106;
+} */
+:root {
+    --thm-base: #FF204E;
+    --secondary-color: #A0153E;
+    --accent-color: #5D0E41;
+    --background-color: #00224D;
+}
