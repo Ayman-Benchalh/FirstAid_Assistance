@@ -1,12 +1,12 @@
 function senddatatoEmail() {
-    emailjs.init("sIvWiBFTCnZKNFwVP"); // Replace with your Public Key from EmailJS
+    emailjs.init("uEhIg6e9-vx2ddjqd"); // Replace with your Public Key from EmailJS
 
     // Form submission handler
     document.getElementById("contact-form").addEventListener("submit", function(event) {
         event.preventDefault(); // Prevent default form submission
 
         // Send email
-        emailjs.sendForm("service_9o9y0bg", "template_9olrk3g", this)
+        emailjs.sendForm("service_piobohm", "template_8gk4y39", this)
             .then(function(response) {
                 // Show success alert
                 Swal.fire({
@@ -29,6 +29,8 @@ function senddatatoEmail() {
                 });
             });
     });
+  
+    
 }
 
 // Initialize the form handler

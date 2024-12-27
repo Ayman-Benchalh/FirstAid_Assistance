@@ -54,6 +54,7 @@ body {
     line-height: 34px;
     font-weight: 400;
     font-family: var(--thm-font);
+    position: relative;
 }
 
 button:focus {
@@ -3871,3 +3872,5 @@ select:focus {
 .testimonial-element-page1 {
     padding-top: 220px;
 }
+
+
